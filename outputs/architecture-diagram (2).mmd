@@ -1,0 +1,16 @@
+graph TD
+    Frontend["User Interface"]
+    API["Booking API"]
+    Service1["Payment Gateway"]
+    DB["Ticket Database"]
+    Cache["Ticket Cache"]
+    Queue["Booking Queue"]
+    Backend["Admin Backend"]
+    Frontend --> API
+    API --> Service1
+    API --> DB
+    DB --> Cache
+    API --> Queue
+    Queue --> DB
+    Backend --> DB
+    API --> Backend
