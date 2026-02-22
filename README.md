@@ -83,15 +83,6 @@ Type a natural language system description (e.g., "Design Netflix") → AutoArch
 └── README.md
 ```
 
-## 🎯 36-Hour Breakdown
-
-| Phase | Hours | Checklist |
-|-------|-------|-----------|
-| **Setup & Infra** | 4h | ✅ Next.js scaffold, UI boilerplate, OpenAI client |
-| **LLM Prompts** | 8h | ✅ Tune prompts for architecture, schema, scaling, APIs |
-| **Generators** | 10h | ✅ Mermaid parser, SQL DDL builder, JSON schema generator |
-| **Frontend & Viz** | 8h | ✅ Input form, output tabs, diagram rendering, export |
-| **Polish & Deploy** | 6h | ⏳ Error handling, edge cases, styling, Vercel deploy |
 
 ## 🚀 Quick Start Commands
 
@@ -124,24 +115,5 @@ npm start
 ✅ Responsive design  
 ✅ Error handling & loading states  
 
-## 🔄 Future Enhancements (Post-Hackathon)
 
-- [ ] User authentication & history
-- [ ] Save/share designs
-- [ ] Multiple LLM provider support (Claude, Ollama)
-- [ ] Real-time diagram editing
-- [ ] Cost estimation calculator
-- [ ] Performance benchmarking templates
-- [ ] AI-powered review/suggestions
 
-## 🤝 Contributing
-
-Feel free to fork and submit PRs. This is a hackathon project built in 36 hours.
-
-## 📄 License
-
-MIT
-
----
-
-**Built with ❤️ for the Aya Hackathon 2026**
